@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  box-sizing: border-box;
+}
+/* Search form */
+form input[type=text] {
+  font-size: 17px;
+  float: left;
+  width: 90%;
+  border-right: none;
+  border-radius: 0;
+}
+form input[type=text]:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: #e0e0e0;
+}
+
+form .btn {
+  float: left;
+  width: 10%;
+  font-size: 17px;
+  border-radius: 0;   
+  border: 1px solid #e0e0e0;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+/* Flag cards */
+.card{
+  box-shadow: 2px 3px 3px #eeeeee;
+}
+.card p span{
+  display: block;
+  font-size: 14px;
+}
+.card .btn{
+  width: 46%;
+  border-radius: 0;
+}
+.card .btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+.card .btn1{
+  margin-right: 15px;
+}
+
+/* india details */
+.india div span{
+  display: block;
+  padding-bottom: 6px;
+}
+
+/* Neighbours */
+#neighbour .container{
+  border: 1px solid #111;
+}
